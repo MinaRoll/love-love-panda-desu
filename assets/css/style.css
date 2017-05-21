@@ -6,3 +6,112 @@ font-family: 'Raleway', sans-serif;
 */
 
 /* Escribe tu código acá debajo */
+*{
+	margin: 0; 
+	padding: 0; 
+	box-sizing: border-box; 
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+}
+
+header{
+	background-color: #F78E69;
+	background-size: cover; 
+	background-position: center; 
+	padding: 80px 30px;  	
+	text-align: right;	
+	color: white;	
+}
+
+.titulo{	
+	font-size: 60px;
+}
+
+.imagen-1 {
+	background: url('../img/uno.jpg'); 
+	background-size: cover; 
+	background-position: center; 
+	padding: 250px 0; 
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+	-o-filter: grayscale(100%);		
+}
+
+.texto, .imagenes{
+	background-color: #F78E69;
+	padding: 30px 0; 		
+}
+
+.verde{
+	background-color: #ABE188;
+	padding: 30px 0; 
+	display:block;
+	text-align:center;		
+}
+
+.div-texto{
+	background-color: #F78E69;
+	width: 520px;
+	margin: 5% 30%;
+	padding: 30px;
+	text-align: center;	
+	color: white;
+}
+
+.div-texto h3{
+	font-size: 25px;
+	padding-bottom: 15px;
+}
+
+.div-texto p{
+	font-weight: 200;
+}
+
+.imagen-2{
+	background: url('../img/dos.jpg'); 
+	background-size: cover; 
+	background-position: center; 
+	padding: 280px 0; 
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+	-o-filter: grayscale(100%);		
+}
+
+.los-pandas{
+	border: 10px solid white;
+	margin: 0 10px;
+	display: inline;
+	text-align: center;
+}
+
+.imagenes h1{
+	color: white;
+	text-align: center;	
+	font-size: 40px;	
+	font-weight: 400;
+	font-weight:bold;	
+	padding-bottom: 30px;			
+}
+
+
+.imagen-3{
+	background: url('../img/tres.jpg'); 
+	background-size: cover; 
+	background-position: center; 
+	padding: 280px 0; 
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+	-o-filter: grayscale(100%);		
+}
+
+footer{
+	background-color: #F78E69;
+	padding: 10px;
+	text-align: right;	
+	color: white;	
+	font-weight: 400;
+	font-weight:bold;	
+}
